@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB0B80E0195CA5CB002BFB84 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B80DF195CA5CB002BFB84 /* ReflectionView.m */; };
+		EB0B80E6195CAB94002BFB84 /* FXImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B80E3195CAB94002BFB84 /* FXImageView.m */; };
+		EB0B80E7195CAB94002BFB84 /* UIImage+FX.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0B80E5195CAB94002BFB84 /* UIImage+FX.m */; };
+		EB7F9B29195C8FFC0017CB0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F9B28195C8FFC0017CB0F /* AppDelegate.swift */; };
+		EB7F9B2B195C8FFC0017CB0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F9B2A195C8FFC0017CB0F /* ViewController.swift */; };
+		EB7F9B2E195C8FFC0017CB0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7F9B2C195C8FFC0017CB0F /* Main.storyboard */; };
+		EB7F9B30195C8FFC0017CB0F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7F9B2F195C8FFC0017CB0F /* Images.xcassets */; };
+		EB7F9B3C195C8FFC0017CB0F /* icarousel_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7F9B3B195C8FFC0017CB0F /* icarousel_demoTests.swift */; };
+		EB7F9B4C195CA3210017CB0F /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7F9B48195CA3210017CB0F /* AsyncImageView.m */; };
+		EB7F9B4D195CA3210017CB0F /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = EB7F9B4B195CA3210017CB0F /* iCarousel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB7F9B36195C8FFC0017CB0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB7F9B1B195C8FFC0017CB0F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB7F9B22195C8FFC0017CB0F;
+			remoteInfo = icarousel_demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB0B80DC195CA3D4002BFB84 /* icarousel_demo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "icarousel_demo-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB0B80DE195CA5CB002BFB84 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		EB0B80DF195CA5CB002BFB84 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		EB0B80E2195CAB94002BFB84 /* FXImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXImageView.h; sourceTree = "<group>"; };
+		EB0B80E3195CAB94002BFB84 /* FXImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXImageView.m; sourceTree = "<group>"; };
+		EB0B80E4195CAB94002BFB84 /* UIImage+FX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FX.h"; sourceTree = "<group>"; };
+		EB0B80E5195CAB94002BFB84 /* UIImage+FX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FX.m"; sourceTree = "<group>"; };
+		EB7F9B23195C8FFC0017CB0F /* icarousel_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = icarousel_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7F9B27195C8FFC0017CB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7F9B28195C8FFC0017CB0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB7F9B2A195C8FFC0017CB0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB7F9B2D195C8FFC0017CB0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB7F9B2F195C8FFC0017CB0F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB7F9B35195C8FFC0017CB0F /* icarousel_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = icarousel_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB7F9B3A195C8FFC0017CB0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB7F9B3B195C8FFC0017CB0F /* icarousel_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = icarousel_demoTests.swift; sourceTree = "<group>"; };
+		EB7F9B47195CA3210017CB0F /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
+		EB7F9B48195CA3210017CB0F /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
+		EB7F9B4A195CA3210017CB0F /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		EB7F9B4B195CA3210017CB0F /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB7F9B20195C8FFC0017CB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7F9B32195C8FFC0017CB0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB0B80DD195CA5CB002BFB84 /* ReflectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B80DE195CA5CB002BFB84 /* ReflectionView.h */,
+				EB0B80DF195CA5CB002BFB84 /* ReflectionView.m */,
+			);
+			path = ReflectionView;
+			sourceTree = "<group>";
+		};
+		EB0B80E1195CAB94002BFB84 /* FXImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B80E2195CAB94002BFB84 /* FXImageView.h */,
+				EB0B80E3195CAB94002BFB84 /* FXImageView.m */,
+				EB0B80E4195CAB94002BFB84 /* UIImage+FX.h */,
+				EB0B80E5195CAB94002BFB84 /* UIImage+FX.m */,
+			);
+			path = FXImageView;
+			sourceTree = "<group>";
+		};
+		EB7F9B1A195C8FFC0017CB0F = {
+			isa = PBXGroup;
+			children = (
+				EB0B80DC195CA3D4002BFB84 /* icarousel_demo-Bridging-Header.h */,
+				EB7F9B45195CA3210017CB0F /* Libraries */,
+				EB7F9B25195C8FFC0017CB0F /* icarousel_demo */,
+				EB7F9B38195C8FFC0017CB0F /* icarousel_demoTests */,
+				EB7F9B24195C8FFC0017CB0F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB7F9B24195C8FFC0017CB0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F9B23195C8FFC0017CB0F /* icarousel_demo.app */,
+				EB7F9B35195C8FFC0017CB0F /* icarousel_demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB7F9B25195C8FFC0017CB0F /* icarousel_demo */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F9B28195C8FFC0017CB0F /* AppDelegate.swift */,
+				EB7F9B2A195C8FFC0017CB0F /* ViewController.swift */,
+				EB7F9B2C195C8FFC0017CB0F /* Main.storyboard */,
+				EB7F9B2F195C8FFC0017CB0F /* Images.xcassets */,
+				EB7F9B26195C8FFC0017CB0F /* Supporting Files */,
+			);
+			path = icarousel_demo;
+			sourceTree = "<group>";
+		};
+		EB7F9B26195C8FFC0017CB0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F9B27195C8FFC0017CB0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB7F9B38195C8FFC0017CB0F /* icarousel_demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F9B3B195C8FFC0017CB0F /* icarousel_demoTests.swift */,
+				EB7F9B39195C8FFC0017CB0F /* Supporting Files */,
+			);
+			path = icarousel_demoTests;
+			sourceTree = "<group>";
+		};
+		EB7F9B39195C8FFC0017CB0F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F9B3A195C8FFC0017CB0F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB7F9B45195CA3210017CB0F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				EB0B80E1195CAB94002BFB84 /* FXImageView */,
+				EB0B80DD195CA5CB002BFB84 /* ReflectionView */,
+				EB7F9B46195CA3210017CB0F /* AsyncImageView */,
+				EB7F9B49195CA3210017CB0F /* iCarousel */,
+			);
+			name = Libraries;
+			path = icarousel_demo/Libraries;
+			sourceTree = "<group>";
+		};
+		EB7F9B46195CA3210017CB0F /* AsyncImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F9B47195CA3210017CB0F /* AsyncImageView.h */,
+				EB7F9B48195CA3210017CB0F /* AsyncImageView.m */,
+			);
+			path = AsyncImageView;
+			sourceTree = "<group>";
+		};
+		EB7F9B49195CA3210017CB0F /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				EB7F9B4A195CA3210017CB0F /* iCarousel.h */,
+				EB7F9B4B195CA3210017CB0F /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB7F9B22195C8FFC0017CB0F /* icarousel_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7F9B3F195C8FFC0017CB0F /* Build configuration list for PBXNativeTarget "icarousel_demo" */;
+			buildPhases = (
+				EB7F9B1F195C8FFC0017CB0F /* Sources */,
+				EB7F9B20195C8FFC0017CB0F /* Frameworks */,
+				EB7F9B21195C8FFC0017CB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = icarousel_demo;
+			productName = icarousel_demo;
+			productReference = EB7F9B23195C8FFC0017CB0F /* icarousel_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB7F9B34195C8FFC0017CB0F /* icarousel_demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7F9B42195C8FFC0017CB0F /* Build configuration list for PBXNativeTarget "icarousel_demoTests" */;
+			buildPhases = (
+				EB7F9B31195C8FFC0017CB0F /* Sources */,
+				EB7F9B32195C8FFC0017CB0F /* Frameworks */,
+				EB7F9B33195C8FFC0017CB0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB7F9B37195C8FFC0017CB0F /* PBXTargetDependency */,
+			);
+			name = icarousel_demoTests;
+			productName = icarousel_demoTests;
+			productReference = EB7F9B35195C8FFC0017CB0F /* icarousel_demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB7F9B1B195C8FFC0017CB0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = ivanschuetz;
+				TargetAttributes = {
+					EB7F9B22195C8FFC0017CB0F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EB7F9B34195C8FFC0017CB0F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EB7F9B22195C8FFC0017CB0F;
+					};
+				};
+			};
+			buildConfigurationList = EB7F9B1E195C8FFC0017CB0F /* Build configuration list for PBXProject "icarousel_demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB7F9B1A195C8FFC0017CB0F;
+			productRefGroup = EB7F9B24195C8FFC0017CB0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB7F9B22195C8FFC0017CB0F /* icarousel_demo */,
+				EB7F9B34195C8FFC0017CB0F /* icarousel_demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB7F9B21195C8FFC0017CB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7F9B2E195C8FFC0017CB0F /* Main.storyboard in Resources */,
+				EB7F9B30195C8FFC0017CB0F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7F9B33195C8FFC0017CB0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB7F9B1F195C8FFC0017CB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7F9B2B195C8FFC0017CB0F /* ViewController.swift in Sources */,
+				EB7F9B4D195CA3210017CB0F /* iCarousel.m in Sources */,
+				EB7F9B4C195CA3210017CB0F /* AsyncImageView.m in Sources */,
+				EB7F9B29195C8FFC0017CB0F /* AppDelegate.swift in Sources */,
+				EB0B80E6195CAB94002BFB84 /* FXImageView.m in Sources */,
+				EB0B80E7195CAB94002BFB84 /* UIImage+FX.m in Sources */,
+				EB0B80E0195CA5CB002BFB84 /* ReflectionView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB7F9B31195C8FFC0017CB0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB7F9B3C195C8FFC0017CB0F /* icarousel_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB7F9B37195C8FFC0017CB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB7F9B22195C8FFC0017CB0F /* icarousel_demo */;
+			targetProxy = EB7F9B36195C8FFC0017CB0F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB7F9B2C195C8FFC0017CB0F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB7F9B2D195C8FFC0017CB0F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB7F9B3D195C8FFC0017CB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB7F9B3E195C8FFC0017CB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB7F9B40195C8FFC0017CB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = icarousel_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "icarousel_demo-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		EB7F9B41195C8FFC0017CB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = icarousel_demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "icarousel_demo-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		EB7F9B43195C8FFC0017CB0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/icarousel_demo.app/icarousel_demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = icarousel_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		EB7F9B44195C8FFC0017CB0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/icarousel_demo.app/icarousel_demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = icarousel_demoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB7F9B1E195C8FFC0017CB0F /* Build configuration list for PBXProject "icarousel_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7F9B3D195C8FFC0017CB0F /* Debug */,
+				EB7F9B3E195C8FFC0017CB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7F9B3F195C8FFC0017CB0F /* Build configuration list for PBXNativeTarget "icarousel_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7F9B40195C8FFC0017CB0F /* Debug */,
+				EB7F9B41195C8FFC0017CB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7F9B42195C8FFC0017CB0F /* Build configuration list for PBXNativeTarget "icarousel_demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB7F9B43195C8FFC0017CB0F /* Debug */,
+				EB7F9B44195C8FFC0017CB0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB7F9B1B195C8FFC0017CB0F /* Project object */;
+}
